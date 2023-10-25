@@ -1,7 +1,6 @@
 package study.chapter6.item34.enum_ex;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class EnumMain {
     public static void main(String[] args) {
@@ -27,6 +26,10 @@ public class EnumMain {
 
         //fromString() 구현 -> MINUS
         System.out.println(Operation.fromString("-"));
+
+        //전략 열거 타입 패턴
+        System.out.println(ElectronicProducts.GALAXY.getLink());
+        System.out.println(ElectronicProducts.IPHONE.getLink());
     }
 
 }
