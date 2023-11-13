@@ -1,7 +1,5 @@
 package study.chapter6.item39;
 
-import org.junit.jupiter.api.Test;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
